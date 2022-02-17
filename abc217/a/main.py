@@ -1,0 +1,1 @@
+S,T = map(str, input().split())if len(S) > len(T):    shorter = Telse:    shorter = Sans = "draw"for i in range(len(shorter)):    if ord(S[i]) < ord(T[i]):        ans = "Yes"         break    elif ord(S[i]) > ord(T[i]):        ans = "No"        breakif ans == "draw":    if shorter == S:        print("Yes")    else:        print("No")else:    print(ans)

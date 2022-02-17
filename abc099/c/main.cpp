@@ -1,0 +1,1 @@
+#include <iostream>#include <vector>int main() {  int N;  std::cin >> N;  std::vector<int> dp[N];  for (i = 0; i < N; i++) {  }}

@@ -1,0 +1,1 @@
+#include <cmath>#include <iostream>int main() {  int A, B;  std::cin >> A >> B;  int x;  x = abs(A - B);  unsigned long m;  m = std::pow(32, x);  std::cout << m << std::endl;}

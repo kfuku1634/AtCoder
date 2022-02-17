@@ -1,0 +1,1 @@
+N = input()S = input()res = []for i in S:    m = ord(i)    m += int(N)    diff = ord('Z') - ord('A') +1    if m <= ord('Z'):        c = chr(m)    else:        c = chr(m-diff)    res.append(c)print("".join(res))

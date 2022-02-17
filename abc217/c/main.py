@@ -1,0 +1,1 @@
+N = int(input())a = input().split()P = []Q = []for i in a:    P.append(int(i))    Q.append(0)for i in range(N):    Q[P[i]-1] = i+1print(" ".join(map(str,Q)))

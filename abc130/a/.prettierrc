@@ -1,0 +1,13 @@
+{
+  "semi": false,
+  "tabWidth": 4,
+  "printWidth" : 8,
+  "overrides": [
+    {
+      "files": ["*.html", "*.css", "*.scss"],
+      "options": {
+        "tabWidth": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+contests = ["ABC","ARC","AGC","AHC"]for _ in range(3):    contests.remove(input())if len(contests) == 1:    print(contests[0])

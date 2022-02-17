@@ -1,0 +1,1 @@
+s1 = input()s2 = input()s3 = input()T = input()dic = { 1:s1, 2:s2, 3:s3}for i in T:    print(dic[int(i)],end="")print()

@@ -1,0 +1,1 @@
+X = int(input())a = 40b = 70c = 90if ( 0 <= X and X < a):    ret = a-Xelif ( a<=X and X < b):    ret = b-Xelif(b<=X and X < c):    ret = c-Xelse:    ret="expert"print(ret)
